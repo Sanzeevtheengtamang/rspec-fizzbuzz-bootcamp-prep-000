@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(int) 
   if int%3 == 0 #if the number is int divisible by 3
-    "Fizz"
+    "FizzBuzz"
   else 
     "Buzz"
 end
