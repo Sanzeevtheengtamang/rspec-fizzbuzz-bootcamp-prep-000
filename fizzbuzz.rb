@@ -2,9 +2,13 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(int) 
   if int%3 == 0 #if the number is int divisible by 3
-    "FizzBuzz"
-  else 
+    "Fizz"
+  elsif int%5==0 
     "Buzz"
+  elsif int%3==0 && int%5==0
+    
+    '
+    fizzbuzz'
 end
 end
 
